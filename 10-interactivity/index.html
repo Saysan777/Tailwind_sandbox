@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-black">submit </button>
+
+    <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-orange-500 focus:text-black">submit </button>
+   
+    <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-black">submit </button>
+    
+    <!-- Styling based on parent state -->
+     <!-- main div lai hover garda ni vitra ko aru element maa hover effect aauxa using group hover-->
+    <a href="" class="group block max w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500 ">
+      <h3 class="group-hover:text-white">Card title</h3>
+      <p class="group-hover:text-white">This is a card</p>
+    </a>
+
+    <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400">Item 1</li>
+      <li class ="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400 ">Item 2</li>
+      <li class ="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400">Item 3</li>
+      <li class ="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400">Item 4</li>
+      <li class ="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400">Item 5</li>
+      <li class ="first:bg-red-200 even:bg-orange-500 odd:bg-blue-400">Item 6</li>
+    </ul>
+
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none"> <!-- basically chrome, safari haru maa apperance diff hunxa so to make same -->
+      <option value="yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <br />
+    
+    <!-- Cursor -->
+    <button class="cursor-wait bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-orange-500 focus:text-black">submit </button>
+    <p class="cursor-pointer">Hey its pointing</p>
+    <p class="cursor-not-allowed">Not allowed</p>
+
+    <!-- Resize -->
+
+    <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <a href="#item" class="block font-bold my-6">Go to item</a>
+
+    <!-- Smooth Scroll Example -->
+    <p class="'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque nulla quas asperiores facere corrupti illo, repellendus officiis doloremque unde odit eveniet nemo iusto voluptatem adipisci dolorem hic sunt culpa dolor vero amet esse itaque sequi perspiciatis? Modi nesciunt quasi recusandae voluptatibus explicabo sunt dolore accusamus dolorum doloremque in provident, voluptate culpa repudiandae architecto corporis beatae fugit nulla eaque iusto quidem possimus eveniet! Deserunt vitae exercitationem odit tenetur excepturi fugit ea fugiat laborum amet nostrum itaque id alias, neque ipsam laboriosam soluta numquam veritatis! Placeat dolore maxime necessitatibus numquam illum, sunt repellat quidem laboriosam, qui at sequi maiores nihil quis ea voluptate exercitationem dolores laborum magni! Fugit minus ipsum harum voluptatibus beatae, fugiat quasi, enim modi laborum quibusdam eum. Illo enim error deserunt? Ex deserunt delectus ducimus possimus et, reprehenderit incidunt dolorem, sunt perspiciatis corporis, tenetur qui doloremque est soluta blanditiis tempore magnam voluptatibus repudiandae magni! Quisquam obcaecati eligendi unde qui dignissimos illo repudiandae officia perferendis saepe nesciunt facere aliquam blanditiis sed nobis neque cupiditate exercitationem tempora consequatur est, molestiae doloremque. Sed ratione ut, molestiae dolore voluptate voluptatibus maxime adipisci, dignissimos quia eveniet est maiores exercitationem officiis voluptas officia dicta necessitatibus atque nostrum mollitia voluptatem ex, modi facere sequi! Odio, sint labore natus, inventore magni nemo ducimus doloremque impedit possimus repellendus id sequi ullam veritatis commodi ab vel, rem neque distinctio! Dicta veritatis corrupti sequi distinctio officia ab ducimus iure tenetur corporis deserunt, voluptatibus repellendus inventore quisquam ad necessitatibus labore maxime repellat alias. Ea cum repellat aperiam tenetur magni nobis blanditiis consequatur, sit amet vel dolores quod ipsa quo quidem officiis quaerat consequuntur aspernatur nisi repudiandae aliquam officia veniam. Error fugit qui modi eveniet mollitia odit, voluptates vero, dolorem cumque saepe amet? Ipsum reprehenderit libero exercitationem quos inventore quo recusandae, asperiores maiores iure sint deleniti error dolorum distinctio at natus. Rerum saepe quibusdam doloribus excepturi suscipit, ex voluptatem dolorum tenetur aperiam nihil, voluptas, qui voluptatibus at aspernatur? Id minima voluptatibus non similique nesciunt asperiores soluta odio et eos voluptas ducimus, vitae dolores ullam cumque, repellat porro maxime perferendis dolore inventore. Maiores, sed natus quibusdam cumque doloremque at quod expedita. Labore, incidunt deleniti soluta culpa dolor neque amet aliquid id earum corrupti officiis voluptatum modi omnis deserunt. In voluptas tenetur fugiat dolor, ea maxime libero? Praesentium culpa iure animi, recusandae facere, unde fugit quod harum fugiat error rem quidem! Nemo earum provident tempore? Rem ut doloribus accusantium eum dolores distinctio quos.
+    </p>
+    <br /> <br />
+    <div id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nobis dolores! Ullam iste rem aliquid aut, exercitationem reiciendis obcaecati optio atque minima possimus tenetur similique sed consequatur molestias labore eos quis saepe velit? Dolorum, eaque? Nam tenetur saepe molestias eaque vel, quos totam fugiat! Eligendi neque dolores molestiae reprehenderit ad.
+    </div>
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
