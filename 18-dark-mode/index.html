@@ -42,7 +42,7 @@
   <script>
     document.getElementById('toggle').addEventListener('change', function() {
       if(this.checked) {
-        document.documentElement.classList.add('dark')
+        document.documentElement.classList.add('dark')    //document takes the main tag(i.e div ) and documentElement takes the child elements
       }
       else{
         document.documentElement.classList.remove('dark')
